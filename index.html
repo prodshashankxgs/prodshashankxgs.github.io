@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shashank (localhost)</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent FOUC (Flash of Unstyled Content) for theme
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">@shashankxgs</a>
+            <div class="theme-controls">
+                <span class="violin-emoji">🎻</span>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Shashank Shankar</h1>
+            <p class="hero-description">
+                Interested In Financial Engineering
+            </p>
+        </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section class="bio">
+        <div class="container">
+            <div class="bio-content">
+
+                <p class="bio-text">Hi, I'm Shashank!</p>
+                <p class="bio-text">
+                    I'm a high school student at Dublin High School in Dublin, California, with a focus on computer science and financial engineering. I'm especially interested in financial technology and quantitative investing, with a focus on payment systems, blockchain infrastructure, and algorithmic trading. Right now, I'm building a stablecoin wallet and an agentic AI platform for payment processing. I also work on predictive models for equities, options, and foreign exchange markets. Recently, I've been exploring credit default swaps and how they could potentially be turned into a profitable strategy.
+                </p>
+
+                <p class="bio-text">
+                    Outside of academics, I'm an avid musician and jazz enthusiast. I play the drumset and trombone, and some of my favorite artists include Bill Evans, Eliane Elias, and Horace Silver. Lately, I've been exploring Tamil film music and have recorded covers of a few songs.
+                </p>
+
+                <p class="bio-text">I'm always eager to have a conversation⸺feel free to reach out!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work/Projects Section -->
+    <section class="work">
+        <div class="container">
+            <h2 class="section-title">Work & Projects</h2>
+
+            <div class="work-item">
+                <h3 class="work-title">Algorithmic Trading</h3>
+                <p class="work-description">
+                    I am developing algorithms to optimize trading strategies in the equities and foreign exchange markets. Currently, I am on a break from active trading, but I will be back soon.
+                </p>
+            </div>
+
+            <div class="work-item">
+                <h3 class="work-title">Stablecoin Wallet</h3>
+                <p class="work-description">
+                    In my free time, I am building a stablecoin wallet and underlying infrastructure aimed at addressing challenges in RTGS and ACH payment systems.
+                </p>
+            </div>
+
+            <div class="work-item">
+                <h3 class="work-title">Browser Automation</h3>
+                <p class="work-description">
+                    I am exploring browser automation using tools like browser-use and hyperbrowser to support agent-based workflows in payment processing systems and task automation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing/Thoughts Section -->
+    <section class="writing">
+        <div class="container">
+            <h2 class="section-title">Recent Thoughts</h2>
+            <p>(Coming Soon)</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-description">
+                Feel free to reach out if you'd like to connect, collaborate, or just say hello :)
+            </p>
+
+            <div class="contact-links">
+                <a href="mailto:shankar.shashank@icloud.com" class="contact-link">Email</a>
+                <a href="https://twitter.com/shashankxgs" class="contact-link" target="_blank" rel="noopener">X (Formerly Twitter)</a>
+                <a href="https://linkedin.com/in/shashankxgs" class="contact-link" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/prodshashankxgs" class="contact-link" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer-text">&copy; 2025 Shashank Shankar. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> 
